@@ -14,7 +14,7 @@ class Sidebar extends React.Component {
         return <div className="border-end sidenav" id="sidebar-wrapper">
             <div className="sidebar-heading border-bottom ">
                 <Link to="/landing-page">
-                    <h6>What India Think</h6>
+                    <h6>My View</h6>
                     {/* <img alt="Alt content" src={require('./../assets/images/logo.png')} /> */}
                 </Link>
             </div>
@@ -30,7 +30,7 @@ class Sidebar extends React.Component {
                             <i className="fa fa-file-o"></i> All Users
                         </Link>
                     </li>
-                    <li className="mb-1">
+                    {/* <li className="mb-1">
                         <Link tag="a" className="" to="/all-contact">
                             <i className="fa fa-file-o"></i> All Contacts
                         </Link>
@@ -39,13 +39,13 @@ class Sidebar extends React.Component {
                         <Link tag="a" className="" to="/blog-post">
                             <i className="fa fa-file-o"></i> Blog Post
                         </Link>
-                    </li>
+                    </li> */}
                     {/* <li className="mb-1">
                         <Link tag="a" className="" to="/poll-post">
                             <i className="fa fa-file-o"></i> Poll Post
                         </Link>
                     </li> */}
-                    <li className="mb-1">
+                    {/* <li className="mb-1">
                         <Link tag="a" className="" to="/blog-comment">
                             <i className="fa fa-file-o"></i> Blog Comment
                         </Link>
@@ -54,7 +54,7 @@ class Sidebar extends React.Component {
                         <Link tag="a" className=" border-bottom" to="/poll-comment">
                             <i className="fa fa-file-o"></i> Poll Comment
                         </Link>
-                    </li>
+                    </li> */}
                     <li><Link className="dropdown-item border-bottom" to="/"><i className="fa fa-sign-out" aria-hidden="true"></i> Sign out</Link></li>
                     {/* <li className="border-top my-3"></li>
                     <li className="mb-1">

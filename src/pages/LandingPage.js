@@ -9,11 +9,11 @@ function AllContact() {
       <div className="">
         <div className="row">
           <div className="col">
-            <h5 className="pb-2 mb-0">What India Think</h5>
+            <h5 className="pb-2 mb-0">My View</h5>
           </div>
         </div>
         <div className="" style={{marginLeft: "300px", marginTop:"200px"}}>
-         <h1>Welcome to What India Think Admin Pannel</h1>
+         <h1>Welcome to My View Admin Pannel</h1>
         </div>
         
       </div>
